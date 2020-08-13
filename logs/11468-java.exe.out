@@ -1,0 +1,50 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 734milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 734"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55857"}
+{"logLevel":"info","message":"Listening on port:55857"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Testler.LoginTest.kontrol' and 'Testler.LoginTest.kontrol'"}
+{"logLevel":"debug","message":"Found idhesap ile {} tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.BasketTest.BasketTest1' and 'Testler.BasketTest.BasketTest1'"}
+{"logLevel":"debug","message":"Found sepet işlemleri {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.LoginTest.kontrolsepet' and 'Testler.LoginTest.kontrolsepet'"}
+{"logLevel":"debug","message":"Found idhesap ile {} sepet kontrolü yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.HomeTest.OzellikTest' and 'Testler.HomeTest.OzellikTest'"}
+{"logLevel":"debug","message":"Found marka fiyat belirle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.LoginTest.Kategoritest' and 'Testler.LoginTest.Kategoritest'"}
+{"logLevel":"debug","message":"Found selector ile kategori bul in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.HomeTest.CvsTest' and 'Testler.HomeTest.CvsTest'"}
+{"logLevel":"debug","message":"Found cvc dosyasına veri ekleme {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.LoginTest.giris' and 'Testler.LoginTest.giris'"}
+{"logLevel":"debug","message":"Found id1 ile {} kadi {},id2 ile {} password {},id5 {} ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.HomeTest.OzellikTest2' and 'Testler.HomeTest.OzellikTest2'"}
+{"logLevel":"debug","message":"Found fiyat belirle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Testler.HomeTest.Searchtest' and 'Testler.HomeTest.Searchtest'"}
+{"logLevel":"debug","message":"Found id1 ile {} giriş yap,id2 ile {} giriş yap in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tfiyat belirle : public void OzellikTest2() throws InterruptedException"}
+{"logLevel":"debug","message":"\tsepet işlemleri {} {} : public void BasketTest1(String addbasket, String addbasket2) throws InterruptedException"}
+{"logLevel":"debug","message":"\tid1 ile {} giriş yap,id2 ile {} giriş yap : public void Searchtest(String id1, String id2) throws InterruptedException"}
+{"logLevel":"debug","message":"\tidhesap ile {} sepet kontrolü yap : public void kontrolsepet(String control2) throws InterruptedException"}
+{"logLevel":"debug","message":"\tidhesap ile {} tıkla : public void kontrol(String control) throws InterruptedException"}
+{"logLevel":"debug","message":"\tmarka fiyat belirle : public void OzellikTest() throws InterruptedException"}
+{"logLevel":"debug","message":"\tcvc dosyasına veri ekleme {} : public void CvsTest(String secme) throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tid1 ile {} kadi {},id2 ile {} password {},id5 {} ile tıkla : public void giris(String id3, String kadi, String id4, String password, String id5) throws InterruptedException"}
+{"logLevel":"debug","message":"\tselector ile kategori bul : public void Kategoritest() throws InterruptedException"}
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27478
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 13, 2020 6:34:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'id1 ile {} giriş yap,id2 ile {} giriş yap' using 'class Testler.HomeTest.Searchtest"}
+{"logLevel":"debug","message":"Executing 'id1 ile {} kadi {},id2 ile {} password {},id5 {} ile tıkla' using 'class Testler.LoginTest.giris"}
+{"logLevel":"debug","message":"Executing 'idhesap ile {} tıkla' using 'class Testler.LoginTest.kontrol"}
+Kübra Duanur MUSLU
+{"logLevel":"debug","message":"Executing 'idhesap ile {} sepet kontrolü yap' using 'class Testler.LoginTest.kontrolsepet"}
+0
+{"logLevel":"debug","message":"Executing 'selector ile kategori bul' using 'class Testler.LoginTest.Kategoritest"}
